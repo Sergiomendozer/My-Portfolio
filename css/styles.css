@@ -12162,6 +12162,9 @@ body {
     "l3 l4";
 }
 /* SKills section */
+#Agile {
+  grid-area: Agile;
+}
 #Bootstrap {
   grid-area: Bootstrap;
 }
@@ -12192,7 +12195,7 @@ body {
 /* #liquid {
   grid-area: liquid;
 } */
-MailChimp {
+#MailChimp {
   grid-area: MailChimp;
 }
 #Markdown {
@@ -12232,16 +12235,17 @@ MailChimp {
   display: grid;
   gap: 10px;
   grid-template-areas:
-  /* mail chimp, campaigner, media queries??, Agile, SCRUM, JIRA, EmailonAcid, Litmus, */
+  /*campaigner, media queries??, jira  */
+  /*EmailonAcid, Litmus ,Agile, Campaigner */
     "HTML CSS PS figma"
     /*  figma*/
     "TS SASS MS_SQL C"
-    /* */
+    /*MailChimp */
     "net Bootstrap VScode python"
     /*  */
     "git github MySQL js"
     /*  */
-    "npy MailChimp MD VS";
+    "Agile MailChimp MD VS";
   /*  */
 }
 /* no longer needed:
@@ -12249,7 +12253,6 @@ SASS1
 C#2
 Dot net3
 VS4
-Liquid5
 Markdown6
 Numpy 7
 Python8
