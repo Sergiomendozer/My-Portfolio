@@ -12189,8 +12189,11 @@ body {
 #python {
   grid-area: python;
 }
-#liquid {
+/* #liquid {
   grid-area: liquid;
+} */
+MailChimp {
+  grid-area: MailChimp;
 }
 #Markdown {
   grid-area: MD;
@@ -12207,8 +12210,8 @@ body {
 #Numpy {
   grid-area: npy;
 }
-#Ps {
-  grid-area: Ps;
+#PS {
+  grid-area: PS;
 }
 #SASS {
   grid-area: SASS;
@@ -12230,7 +12233,7 @@ body {
   gap: 10px;
   grid-template-areas:
   /* mail chimp, campaigner, media queries??, Agile, SCRUM, JIRA, EmailonAcid, Litmus, */
-    "HTML CSS Ps figma"
+    "HTML CSS PS figma"
     /*  figma*/
     "TS SASS MS_SQL C"
     /* */
@@ -12238,7 +12241,7 @@ body {
     /*  */
     "git github MySQL js"
     /*  */
-    "npy liquid MD VS";
+    "npy MailChimp MD VS";
   /*  */
 }
 /* no longer needed:
