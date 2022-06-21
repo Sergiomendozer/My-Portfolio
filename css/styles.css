@@ -12171,9 +12171,6 @@ body {
 #Campaigner {
   grid-area: Camp;
 }
-/* #C_sharp {
-  grid-area: C;
-} */
 #CSS {
   grid-area: CSS;
 }
@@ -12213,12 +12210,6 @@ body {
 #MySQL {
   grid-area: MySQL;
 }
-/* #net {
-  grid-area: net;
-} */
-/* #Numpy {
-  grid-area: npy;
-} */
 #PS {
   grid-area: PS;
 }
@@ -12227,12 +12218,6 @@ body {
 }
 #TS {
   grid-area: TS;
-}
-#Tkinter {
-  grid-area: Tkinter;
-}
-#VS {
-  grid-area: VS;
 }
 #VScode {
   grid-area: VScode;
@@ -12247,12 +12232,3 @@ body {
     "git github js TS"
     "python SASS MS_SQL MySQL";
 }
-/* no longer needed:
-SASS1
-C#2
-Dot net3
-VS4
-Markdown6
-Numpy 7
-Python8
- */
