@@ -12216,9 +12216,9 @@ body {
 /* #net {
   grid-area: net;
 } */
-#Numpy {
+/* #Numpy {
   grid-area: npy;
-}
+} */
 #PS {
   grid-area: PS;
 }
@@ -12241,18 +12241,11 @@ body {
   display: grid;
   gap: 10px;
   grid-template-areas:
-  /*campaigner, media queries??, jira  */
-  /*EmailonAcid, Litmus ,Agile, Campaigner */
     "HTML CSS PS figma"
-    /*  MailChimp*/
-    "TS SASS MS_SQL Acid"
-    /* */
-    "litmus Bootstrap VScode python"
-    /*  */
-    "git github MySQL js"
-    /*  */
-    "Agile MailChimp Camp MediaQ";
-  /*  */
+    "Acid litmus MailChimp Camp"
+    "MediaQ Bootstrap Agile VScode"
+    "git github js TS"
+    "python SASS MS_SQL MySQL";
 }
 /* no longer needed:
 SASS1
