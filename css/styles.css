@@ -12208,8 +12208,8 @@ body {
   grid-area: npy;
 }
 #Ps {
-    grid-area: Ps;
-  }
+  grid-area: Ps;
+}
 #SASS {
   grid-area: SASS;
 }
@@ -12229,9 +12229,25 @@ body {
   display: grid;
   gap: 10px;
   grid-template-areas:
-    "python js HTML CSS"
+  /* mail chimp, campaigner, media queries??, Agile, SCRUM, JIRA, EmailonAcid, Litmus, */
+    "HTML CSS Ps figma"
+    /*  figma*/
     "TS SASS MS_SQL C"
-    "net Bootstrap VScode VS "
-    "git github MySQL figma"
-    "npy liquid MD Ps";
+    /* */
+    "net Bootstrap VScode python"
+    /*  */
+    "git github MySQL js"
+    /*  */
+    "npy liquid MD VS";
+  /*  */
 }
+/* no longer needed:
+SASS1
+C#2
+Dot net3
+VS4
+Liquid5
+Markdown6
+Numpy 7
+Python8
+ */
