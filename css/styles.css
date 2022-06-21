@@ -12168,11 +12168,17 @@ body {
 #Bootstrap {
   grid-area: Bootstrap;
 }
-#C_sharp {
-  grid-area: C;
+#Campaigner {
+  grid-area: Camp;
 }
+/* #C_sharp {
+  grid-area: C;
+} */
 #CSS {
   grid-area: CSS;
+}
+#EmailonAcid {
+  grid-area: Acid;
 }
 #Figma {
   grid-area: figma;
@@ -12192,14 +12198,14 @@ body {
 #python {
   grid-area: python;
 }
-/* #liquid {
-  grid-area: liquid;
-} */
+#Litmus {
+  grid-area: litmus;
+}
 #MailChimp {
   grid-area: MailChimp;
 }
-#Markdown {
-  grid-area: MD;
+#MediaQ {
+  grid-area: MediaQ;
 }
 #MS_SQL {
   grid-area: MS_SQL;
@@ -12207,9 +12213,9 @@ body {
 #MySQL {
   grid-area: MySQL;
 }
-#net {
+/* #net {
   grid-area: net;
-}
+} */
 #Numpy {
   grid-area: npy;
 }
@@ -12238,14 +12244,14 @@ body {
   /*campaigner, media queries??, jira  */
   /*EmailonAcid, Litmus ,Agile, Campaigner */
     "HTML CSS PS figma"
-    /*  figma*/
-    "TS SASS MS_SQL C"
-    /*MailChimp */
-    "net Bootstrap VScode python"
+    /*  MailChimp*/
+    "TS SASS MS_SQL Acid"
+    /* */
+    "litmus Bootstrap VScode python"
     /*  */
     "git github MySQL js"
     /*  */
-    "Agile MailChimp MD VS";
+    "Agile MailChimp Camp MediaQ";
   /*  */
 }
 /* no longer needed:
