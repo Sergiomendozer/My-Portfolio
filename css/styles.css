@@ -12168,9 +12168,9 @@ body {
 #Bootstrap {
   grid-area: Bootstrap;
 }
-#Campaigner {
+/* #Campaigner {
   grid-area: Camp;
-}
+} */
 #CSS {
   grid-area: CSS;
 }
@@ -12216,6 +12216,9 @@ body {
 #SASS {
   grid-area: SASS;
 }
+#SalesForce{
+    grid-area: SF;
+}
 #TS {
   grid-area: TS;
 }
@@ -12227,7 +12230,7 @@ body {
   gap: 10px;
   grid-template-areas:
     "HTML CSS PS figma"
-    "Acid litmus MailChimp Camp"
+    "SF Acid litmus MailChimp"
     "MediaQ Bootstrap Agile VScode"
     "git github js TS"
     "python SASS MS_SQL MySQL";
