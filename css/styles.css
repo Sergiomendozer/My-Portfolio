@@ -12236,6 +12236,16 @@ body {
     "python SASS MS_SQL MySQL";
 }
 
+#center_text{
+    text-align: center;
+}
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
 /* projects layout */
 #Grand-Opening {
     grid-area: GO;
