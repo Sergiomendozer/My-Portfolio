@@ -12245,7 +12245,11 @@ body {
     margin-right: auto;
     /* width: 50%; */
   }
-
+#blue_button {
+    background-color: #09a0ef;
+    /* font-size: large;
+    padding: 10px; */
+  }
 /* projects layout */
 #Grand-Opening {
     grid-area: GO;
