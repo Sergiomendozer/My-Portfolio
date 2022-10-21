@@ -12003,6 +12003,9 @@ body {
 #js {
   grid-area: js;
 }
+#Jira{
+  grid-area: Jira;
+}
 #python {
   grid-area: python;
 }
@@ -12041,7 +12044,7 @@ body {
   gap: 10px;
   grid-template-areas:
     "HTML CSS PS figma"
-    "SF Acid litmus MailChimp"
+    "SF Acid litmus Jira"
     "MediaQ Bootstrap Agile VScode"
     "git github js TS"
     "python SASS MS_SQL MySQL";
