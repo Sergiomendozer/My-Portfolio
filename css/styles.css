@@ -12043,9 +12043,9 @@ body {
   display: grid;
   gap: 10px;
   grid-template-areas:
-    "HTML CSS PS figma"
-    "SF Acid litmus Jira"
-    "MediaQ Bootstrap Agile VScode"
+    "SF HTML CSS Jira"
+    "figma litmus PS VScode"
+    "Acid Agile MediaQ Bootstrap"
     "git github js TS"
     "python SASS MS_SQL MySQL";
 }
