@@ -12077,4 +12077,15 @@ body {
     gap: 10px;
     grid-template-areas: "GO PO";
   }
+  /* #GD-email-domain {
+    grid-area: GED;
+  }
+  #B-tool {
+    grid-area: BT;
+  }
   
+  .grid-container-projects {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "GED BT";
+  } */
