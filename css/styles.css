@@ -11979,20 +11979,14 @@ body {
 #Agile {
   grid-area: Agile;
 }
+#AppWrite {
+  grid-area: AppWrite;
+}
 #Bootstrap {
   grid-area: Bootstrap;
 }
 #CSS {
   grid-area: CSS;
-}
-#React {
-  grid-area: React;
-}
-#JSON {
-  grid-area: JSON;
-}
-#AppWrite {
-  grid-area: AppWrite;
 }
 #EmailonAcid {
   grid-area: Acid;
@@ -12009,14 +12003,14 @@ body {
 #HTML {
   grid-area: HTML;
 }
-#js {
-  grid-area: js;
-}
-#Jira{
+#Jira {
   grid-area: Jira;
 }
-#python {
-  grid-area: python;
+#JSON {
+  grid-area: JSON;
+}
+#js {
+  grid-area: js;
 }
 #Litmus {
   grid-area: litmus;
@@ -12036,11 +12030,17 @@ body {
 #PS {
   grid-area: PS;
 }
+#python {
+  grid-area: python;
+}
+#React {
+  grid-area: React;
+}
 #SASS {
   grid-area: SASS;
 }
-#SalesForce{
-    grid-area: SF;
+#SalesForce {
+  grid-area: SF;
 }
 #TS {
   grid-area: TS;
@@ -12048,7 +12048,6 @@ body {
 #VScode {
   grid-area: VScode;
 }
-
 /* Acid Agile MediaQ PS */
 /* python SASS MS_SQL MySQL */
 
