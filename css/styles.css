@@ -11846,16 +11846,37 @@ section.resume-section .resume-section-content {
   box-shadow: 10px 16px 10px 0 rgba(0, 1, 1, 0.2);
   padding: 16px;
 }
+
 #Hire_me {
-  padding: 15px;
-  color: black;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
+  padding: 20px;
+  color: #333;
+  background-color: #d6cfc4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #hire_button {
-  background-color: white;
-  padding: 15px;
+  display: inline-block;
+  background-color: #48D1CC;
+  color: white;
+  padding: 15px 30px;
   font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
 }
+
+#hire_button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
 /* {
   box-sizing: border-box;
 } */
