@@ -11978,7 +11978,7 @@ textarea:focus {
 
 /* Button styling */
 .submit-button {
-  background-color: #48D1CC; /* Primary button color */
+  background-color: #48D1CC; 
   color: white;
   padding: 12px 20px;
   border: none;
@@ -12175,7 +12175,7 @@ textarea:focus {
     /* width: 50%; */
   }
 #blue_button {
-    background-color: #09a0ef;
+    background-color: #48d1cc;
     /* font-size: large;
     padding: 10px; */
   }
