@@ -11985,6 +11985,15 @@ body {
 #CSS {
   grid-area: CSS;
 }
+#React {
+  grid-area: React;
+}
+#JSON {
+  grid-area: JSON;
+}
+#AppWrite {
+  grid-area: AppWrite;
+}
 #EmailonAcid {
   grid-area: Acid;
 }
@@ -12039,15 +12048,19 @@ body {
 #VScode {
   grid-area: VScode;
 }
+
+/* Acid Agile MediaQ PS */
+/* python SASS MS_SQL MySQL */
+
+
 .grid-container-skills {
   display: grid;
   gap: 10px;
   grid-template-areas:
     "SF HTML CSS Jira"
-    "figma litmus PS VScode"
-    "Acid Agile MediaQ Bootstrap"
+    "figma litmus Bootstrap VScode"
     "git github js TS"
-    "python SASS MS_SQL MySQL";
+    "React JSON AppWrite MySQL";
 }
 
 #center_text{
